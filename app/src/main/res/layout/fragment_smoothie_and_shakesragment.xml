@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ss"
+    tools:context="com.example.hp.coffeeh.fragments.SmoothieAndShakesragment">
+
+  <FrameLayout
+      android:clickable="true"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+  </FrameLayout>
+
+    <TextView
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:text="Be nice to people on your way up because you'll meet them on your way down."
+        android:textSize="20sp"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+      <info.hoang8f.widget.FButton
+          android:id="@+id/btn_smoothie"
+          android:textAllCaps="false"
+          android:text="Smoothie"
+          android:layout_centerInParent="true"
+          android:layout_alignParentBottom="true"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content" />
+
+
+
+</RelativeLayout>

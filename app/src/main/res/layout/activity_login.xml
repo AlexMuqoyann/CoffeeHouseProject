@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fenix"
+    tools:context="com.example.hp.coffeeh.LoginActivity">
+
+
+
+    <TextView
+        android:layout_margin="70dp"
+        android:id="@+id/tv_coffeHouse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Coffee House Company"
+        android:textColor="@android:color/white"
+        android:textSize="33dp" />
+    <TextView
+        android:visibility="gone"
+        android:text="Please enter your email and password"
+        android:gravity="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:id="@+id/tv_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:drawablePadding="10dp"
+                android:drawableLeft="@drawable/ic_action_name"
+                android:inputType="textEmailAddress"
+                android:id="@+id/et_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:hint="Enter your email"
+                android:padding="8dp"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/darker_gray" />
+
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:drawablePadding="10dp"
+                android:drawableLeft="@drawable/ic_alock"
+                android:inputType="textPassword"
+                android:id="@+id/et_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:hint="Enter your password"
+                android:padding="8dp"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/darker_gray" />
+
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <br.com.simplepass.loading_button_lib.customViews.CircularProgressButton
+            android:id="@+id/btn_login"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Login"
+            android:textAllCaps="false"
+            app:spinning_bar_color="#FFF"
+            app:spinning_bar_padding="6dp"
+            app:spinning_bar_width="4dp"
+            android:background="@drawable/edit_text_shape"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_marginBottom="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/tv_resset_password"
+            android:layout_marginTop="35dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:text="Forgot your password?"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_alignParentBottom="true"
+            android:id="@+id/tv_dont_have_account"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text=" Don't have account? Sign up"
+            android:textColor="@android:color/white" />
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+</LinearLayout>

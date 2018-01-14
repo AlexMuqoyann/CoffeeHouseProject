@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardMaxElevation="5dp"
+    android:layout_height="200dp">
+
+<RelativeLayout
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/iv_smoothie"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:layout_marginBottom="15dp"
+        android:id="@+id/tv_smoothie_text"
+        android:textSize="15sp"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_smoothie_price"
+        android:textStyle="bold"
+        android:textSize="10sp"
+        android:textColor="@android:color/white"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
+
+
+
+
+
+</android.support.v7.widget.CardView>

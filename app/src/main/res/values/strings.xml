@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">CoffeeH</string>
+    <string-array name="code">
+        <item>+374</item>
+        <item>+327</item>
+        <item>+389</item>
+    </string-array>
+    <string-array name="country">
+        <item></item>
+        <item>Armenia</item>
+        <item>Russia</item>
+        <item>USA</item>
+        <item>Germany</item>
+        <item>Brasil</item>
+        <item>Italy</item>
+        <item>Georgia</item>
+        <item>Latvia</item>
+        <item>Polish</item>
+        <item>Kongo</item>
+        <item>Spain</item>
+    </string-array>
+    <string name="coffee">Coffee</string>
+    <string name="milkshakes">Smoothies</string>
+    <string name="Tea">Tea</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="home">Home</string>
+    <string name="facebook">Facebook</string>
+    <string name="boughtCoffee">Bought coffee</string>
+    <string name="SignOut">Sign Out</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Settings">Settings</string>
+</resources>

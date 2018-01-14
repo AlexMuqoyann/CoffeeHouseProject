@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/tv_drink_coffee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Where do you want to drink coffee?"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <CheckBox
+
+        android:text="Russian-Armenian (Slavonic) University"
+        android:textColor="@android:color/white"
+        android:textAllCaps="false"
+        android:layout_marginTop="5dp"
+        android:id="@+id/Cb_slavonic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_drink_coffee" />
+
+    <CheckBox
+        android:text="Armenian State Pedagogical University"
+        android:layout_marginTop="5dp"
+        android:id="@+id/Cb_aleq_manukyan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Cb_slavonic" />
+
+    <CheckBox
+        android:text="Yerevan State Linguistic University after V. Brusov"
+        android:layout_marginTop="5dp"
+        android:id="@+id/Cb_bryusov"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Cb_aleq_manukyan" />
+
+    <CheckBox
+        android:text="Armenian State University of Economics"
+        android:layout_marginTop="5dp"
+        android:id="@+id/Cb_asue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Cb_bryusov" />
+
+    <CheckBox
+        android:text="National Polytechnic University of Armenia"
+        android:layout_marginTop="5dp"
+        android:id="@+id/Cb_polytech"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Cb_asue" />
+
+
+
+
+</RelativeLayout>

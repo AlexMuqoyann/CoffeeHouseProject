@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "211498651286",
+    "firebase_url": "https://coffeeh-3cd81.firebaseio.com",
+    "project_id": "coffeeh-3cd81",
+    "storage_bucket": "coffeeh-3cd81.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:211498651286:android:70e30da38d3d51e6",
+        "android_client_info": {
+          "package_name": "com.example.hp.coffeeh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "211498651286-gtfegu4t0cvock3naf9kh72nkj8khm46.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hp.coffeeh",
+            "certificate_hash": "f5e281ca11700ffe6190bfe19d2c1faffb546c33"
+          }
+        },
+        {
+          "client_id": "211498651286-6mt7uhnndnp8vh6gn3umsinl6opo6t1a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeIrima3zihFuohUUzH3SUVLIFg_LHvh4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "211498651286-6mt7uhnndnp8vh6gn3umsinl6opo6t1a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

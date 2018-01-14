@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/dr"
+        tools:context="com.example.hp.coffeeh.fragments.CoffeeFragment">
+
+
+
+    <FrameLayout
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </FrameLayout>
+
+  <TextView
+      android:gravity="center"
+      android:textSize="22sp"
+      android:text="During Your life,never stop dreaming.No one can takeaway your dreams."
+      android:textColor="@android:color/white"
+      android:textStyle="bold"
+      android:layout_centerInParent="true"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+
+
+<LinearLayout
+    android:weightSum="2"
+    android:orientation="horizontal"
+    android:layout_alignParentBottom="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <info.hoang8f.widget.FButton
+        android:textAllCaps="false"
+        android:text="Hot Coffee"
+        android:scaleType="centerCrop"
+        android:id="@+id/btn_hot_coffee"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+    <info.hoang8f.widget.FButton
+        android:text="Ice Coffeee"
+        android:textAllCaps="false"
+        android:id="@+id/btn_ice_coffee"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+
+
+
+
+
+
+
+    </RelativeLayout>

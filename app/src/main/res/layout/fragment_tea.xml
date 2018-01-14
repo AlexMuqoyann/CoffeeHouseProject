@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/rozdestvo"
+    tools:context="com.example.hp.coffeeh.fragments.TeaFragment">
+        <FrameLayout
+            android:id="@+id/tea_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true">
+
+
+        </FrameLayout>
+
+<TextView
+    android:text="ALL GOOD THINGS COME TO THOSE WHO WAIT."
+    android:textStyle="bold"
+    android:textColor="@android:color/white"
+    android:textSize="22sp"
+    android:gravity="center"
+    android:layout_centerInParent="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+    <LinearLayout
+            android:layout_alignParentBottom="true"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <info.hoang8f.widget.FButton
+                android:textAllCaps="false"
+                android:text="Hot Tea"
+                android:id="@+id/btn_hot_tea"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+            <info.hoang8f.widget.FButton
+                android:textAllCaps="false"
+                android:text="Ice Tea"
+                android:id="@+id/btn_ice_tea"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+
+
+
+    </RelativeLayout>

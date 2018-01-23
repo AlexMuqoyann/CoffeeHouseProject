@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/zv_nebo"
     android:orientation="vertical"
-    tools:context="com.example.hp.coffeeh.DontHaveAcountActivity">
+    tools:context="com.example.hp.coffeeh.activitys.DontHaveAcountActivity">
 
 
 

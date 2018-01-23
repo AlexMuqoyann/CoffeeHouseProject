@@ -1,4 +1,4 @@
-package com.example.hp.coffeeh;
+package com.example.hp.coffeeh.activitys;
 
 import android.graphics.Typeface;
 import android.support.annotation.NonNull;
@@ -12,6 +12,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.hp.coffeeh.R;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/fenix"
-    tools:context="com.example.hp.coffeeh.LoginActivity">
+    tools:context="com.example.hp.coffeeh.activitys.LoginActivity">
 
 
 

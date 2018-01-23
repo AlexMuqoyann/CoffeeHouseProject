@@ -1,4 +1,4 @@
-package com.example.hp.coffeeh;
+package com.example.hp.coffeeh.activitys;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -12,6 +12,7 @@ import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.AdapterView;
 
+import com.example.hp.coffeeh.R;
 import com.example.hp.coffeeh.adapters.PagerAdapter;
 import com.example.hp.coffeeh.fragments.AboutUs;
 import com.google.firebase.auth.FirebaseAuth;
@@ -19,7 +20,6 @@ import com.mikepenz.iconics.typeface.FontAwesome;
 import com.mikepenz.materialdrawer.Drawer;
 import com.mikepenz.materialdrawer.model.DividerDrawerItem;
 import com.mikepenz.materialdrawer.model.PrimaryDrawerItem;
-import com.mikepenz.materialdrawer.model.SecondaryDrawerItem;
 import com.mikepenz.materialdrawer.model.SectionDrawerItem;
 import com.mikepenz.materialdrawer.model.interfaces.IDrawerItem;
 

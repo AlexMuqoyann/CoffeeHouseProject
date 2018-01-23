@@ -1,4 +1,4 @@
-package com.example.hp.coffeeh.ViewHolders;
+package com.example.hp.coffeeh.viewHolders;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.View;

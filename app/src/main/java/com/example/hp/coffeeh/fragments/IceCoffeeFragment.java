@@ -12,7 +12,7 @@ import android.view.ViewGroup;
 
 import com.example.hp.coffeeh.R;
 
-import com.example.hp.coffeeh.ViewHolders.IceCoffeeHolder;
+import com.example.hp.coffeeh.viewHolders.IceCoffeeHolder;
 import com.example.hp.coffeeh.interfaces.RecyclerViewOnClickListener;
 import com.example.hp.coffeeh.models.IceCoffee;
 import com.example.hp.coffeeh.prodDetails.IcecoffeeDetailFragment;

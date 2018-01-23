@@ -11,7 +11,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.hp.coffeeh.R;
-import com.example.hp.coffeeh.ViewHolders.HotCoffeeHolder;
+import com.example.hp.coffeeh.viewHolders.HotCoffeeHolder;
 import com.example.hp.coffeeh.interfaces.RecyclerViewOnClickListener;
 import com.example.hp.coffeeh.models.HotCoffee;
 import com.example.hp.coffeeh.prodDetails.HotcoffeeDetailFragment;
